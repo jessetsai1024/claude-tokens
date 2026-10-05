@@ -1,0 +1,22 @@
+{
+  "name": "claude-tokens",
+  "description": "側邊欄的 token 往來：主對話每次送給 Anthropic 多少 token、等多久、收到多少，最上面是合計。/tokens 開或關",
+  "owner": {
+    "name": "Jesse",
+    "url": "https://github.com/jessetsai1024"
+  },
+  "plugins": [
+    {
+      "name": "tokens",
+      "source": "./",
+      "description": "側邊欄的 token 往來：主對話每次送給 Anthropic 多少 token、等多久、收到多少，最上面是合計。/tokens 開或關",
+      "category": "productivity",
+      "tags": [
+        "mod",
+        "terminal",
+        "pane",
+        "claude-code"
+      ]
+    }
+  ]
+}
